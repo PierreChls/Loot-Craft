@@ -421,6 +421,15 @@ form.contact-us div.form-group input{
 #main-container #page-wrapper .page-nav{
 	background: #555;
 	padding: 1em 4em;
+	overflow: hidden;
+}
+
+
+#main-container #page-wrapper .page-nav input#copyTarget{
+	position: absolute;
+    z-index: -999999;
+    left: -99999px;
+    opacity: 0;
 }
 
 #main-container #page-wrapper .page-nav .nav p{
@@ -434,6 +443,10 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-nav .links{
 	text-align: right;
+}
+
+#main-container #page-wrapper .page-nav .links a{
+	outline: none;
 }
 
 #main-container #page-wrapper .page-nav .links img{
@@ -956,9 +969,41 @@ form.contact-us div.form-group input{
 
 #main-container footer{
 	padding: 1em 4em;
-	background: #FFF;
+	background: #ccc;
 	text-align: center;
 	font-size: 1em;
+	border-bottom: 4em solid #fff;
+}
+
+#main-container footer ul:first-child{
+	margin-top: 4em;
+	padding: 1em;
+	border-top: 0.5em solid #555;
+}
+
+#main-container footer ul li{
+	padding: 0.2em 0;
+	color: #555;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#main-container footer ul.list-unstyled ul{
+	list-style: none;
+}
+
+#main-container footer .more{
+	margin: 1em auto;
+}
+
+#main-container footer .more a{
+	display: block;
+	width: 100%;
+	padding: 1em 0;
+	background: #555;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
 @media (max-width: 992px){
@@ -970,6 +1015,12 @@ form.contact-us div.form-group input{
 	}
 	#main-container #page-wrapper .page-nav .nav p, #main-container #page-wrapper .page-nav .links img{
 		margin: 0.5em 0.5em;
+	}
+	
+	#main-container footer div.col-md-6:nth-child(2) ul.list-unstyled{
+		border-top: 0;
+		margin: 0 auto 4em auto;
+		padding: 0 1em;
 	}
 }
 

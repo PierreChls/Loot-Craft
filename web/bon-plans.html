@@ -18,6 +18,10 @@
 	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	  <link rel="stylesheet" type="text/css" href="css/main.css">
 	  <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+	  
+	  <link rel="stylesheet" type="text/css" href="css/ns-default.css" />
+	  <link rel="stylesheet" type="text/css" href="css/ns-style-bar.css" />
+	  <link rel="stylesheet" type="text/css" href="css/ns-style-growl.css" />
 	
 	  <script src="js/jquery-1.11.0.min.js"></script>
 	  <script src="js/modernizr-2.7.1.js"></script>
@@ -85,9 +89,10 @@
 						<p class="col-md-2"><a href="#brocantes" class="scroll">Brocantes</a></p>
 					</div>
 					<div class="links col-md-2 row">
-						<a href="http://google.fr"><img src="img/link.svg"/></a>
-						<a href="http://google.fr"><img src="img/link-share.svg"/></a>
+						<a id="copy-url" href=""><img src="img/link.svg"/></a>
+						<a id="share-url" href=""><img src="img/link-share.svg"/></a>
 					</div>
+					<input type="text" id="copyTarget" value="Text to Copy">
 				</div>
 				
 				<div class="page-content row">
@@ -248,13 +253,45 @@
 				
 			</section>
 			
-			<footer>
-				<p>Faites de vos vieilles trouvailles, des objets de décoration design</p>
+			<footer class="row">
+				<div class="col-md-6 text-left">
+					<ul class="list-unstyled">
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="objets.html">Objets</a></li>
+							<ul>
+								<li><a href="objets-alphabet.html">Chercher</a></li>
+								<li><a href="objets-search.html">Trouver</a></li>
+								<li><a href="objets-page.html">Objet du mois</a></li>
+								<li><a href="objets-page.html">Objet aléatoire</a></li>
+							</ul>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="list-unstyled text-left">
+						<li><a href="tutoriels.html">Tutoriels</a></li>
+						<li><a href="bon-plans.html">Bon plans</a></li>
+						<li><a href="forum.html">Forum</a></li>
+							<ul>
+								<li><a href="forum-panier-a-idees.html">Panier à idées</a></li>
+								<li><a href="forum-start-talk.html">Lancer une discussion</a></li>
+							</ul>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 more">
+					<a href="mentions-legales.html" class="text-center">Mentions légales</a>
+				</div>
+				<div class="col-md-6 more">
+					<a href="newsletter.html" class="text-center">Newsletter</a>
+				</div>
 			</footer>
 
 	    <script src="js/bootstrap.min.js"></script>
 	    <script src="js/main.js"></script>
 	    
+	    <script src="js/classie.js"></script>
+		<script src="js/notificationFx.js"></script>
+		<script src="js/bttn-notif.js"></script>
 	    
     </body>
 </html>
