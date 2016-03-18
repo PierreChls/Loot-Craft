@@ -26,10 +26,10 @@ Webdesign project realised in IMAC Engineering School. This website was created 
 
 	cd web/
 	
-3) Open index file to your favorite browser
+3) Open index file with your favorite browser
 
 - Click or drag and drop `index.html` file
-- You can also use command line to open you default browser :
+- You can also use command line to open your default browser :
 
 ```
 open index.html
