@@ -2,6 +2,8 @@
 
 Webdesign project realised in IMAC Engineering School. This website was created only in an visual approach, no back-end work has been done. The theme imposed was around the interior design, we decided to centralize our website on the decoration from recycled objects.
 
+![screenshot](https://raw.githubusercontent.com/PierreChls/Loot-and-Craft/master/web/img/screenshot.png)
+
 **Supported browsers :**
 
 - Google Chrome
