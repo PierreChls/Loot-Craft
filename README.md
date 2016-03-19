@@ -17,6 +17,7 @@ Webdesign project realised in IMAC Engineering School. This website was created 
 - Bootstrap
 - MixItUp 
 - Fancybox
+- NotificationFx
 
 ## How to use it 
 
