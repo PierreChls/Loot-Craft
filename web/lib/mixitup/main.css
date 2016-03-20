@@ -16,13 +16,13 @@ input[type="text"]:focus {
 button{
   display: inline-block;
   vertical-align: top;
-  padding: .4em .8em;
+  padding: .75em 1.2em;
   margin: 0.4em;
-  /*background: #68b8c4;*/
   border: 0;
   color: #333;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 100;
   border-radius: 4px;
   cursor: pointer;
 }

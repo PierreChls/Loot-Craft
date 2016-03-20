@@ -13,12 +13,13 @@ $(document).ready(function(){
   /* Scroll To */
   $(".scroll").click(function(event){		
   		event.preventDefault();
-  		$('html,body').animate({scrollTop:$(this.hash).offset().top -50}, 800);
+  		$('html,body').animate({scrollTop:$(this.hash).offset().top -50}, 0);
   });
   
   /* Open/close menu */
   $(".nav-icon").click(function(event){		
   		event.preventDefault();
+  		$('html,body').animate({scrollTop:0 - 100000}, 800);
   		if( $("#nav").hasClass("open") ){
   			$("#nav").removeClass("open");
   			$(".hamburger").removeClass("is-active");
