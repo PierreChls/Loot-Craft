@@ -163,12 +163,15 @@ a:hover, a:focus {
 
 #nav-left .home{
     position: fixed;
-    width: 3em;
+    width: 3.5em;
+    display: block;
+    margin-bottom: 3.7em;
     bottom: 0;
 }
 
 #nav-left .home img{
-    width: 100%;
+    width: 90%;
+    display: block;
     margin: auto;
 }
 
@@ -240,7 +243,7 @@ a:hover, a:focus {
 }
 
 #main-container #page-wrapper{
-	padding: 2em;
+	padding: 3em 2.5em;
 }
 
 
@@ -360,6 +363,12 @@ form .subscription{
 	display: block;
 }
 
+@media (max-width: 650px){
+	#main-container #page-wrapper .header-letter .intro, #main-container #page-wrapper .header-title .intro{
+		width: 100%;
+	}
+}
+
 .connect{
 	margin: 1em auto;
 	display: block;
@@ -461,6 +470,12 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content{
 	padding: 1em 4em;
+}
+
+@media (max-width: 992px){
+	#main-container #page-wrapper .page-content{
+		padding: 1em 1em;
+	}
 }
 
 #main-container #page-wrapper .page-content .people{
@@ -1011,7 +1026,7 @@ form.contact-us div.form-group input{
 
 @media (max-width: 992px){
 	#main-container #page-wrapper {
-	    padding: 3em 0em;
+	    padding: 4em 0em;
 	}
 	#main-container #page-wrapper .page-nav .nav p, #main-container #page-wrapper .page-nav .links{
 	    text-align: center;
@@ -1024,6 +1039,10 @@ form.contact-us div.form-group input{
 		border-top: 0;
 		margin: 0 auto 4em auto;
 		padding: 0 1em;
+	}
+	#main-container footer{
+		border-bottom: 0;
+		padding: 1em;
 	}
 }
 
