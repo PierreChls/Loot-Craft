@@ -1,15 +1,12 @@
-
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 
 /**************/
 /*   TITLES   */
 /**************/
- 
-h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
-  font-family: 'Montserrat', sans-serif;
-}
 
-p {
-	font-family: 'Raleway', sans-serif;
+html, body, h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
+  font-family: 'Nunito', sans-serif;
 }
 
 h1 {
@@ -140,7 +137,7 @@ a:hover, a:focus {
     padding: 0;
     margin: 0;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 
@@ -261,7 +258,7 @@ a:hover, a:focus {
     font-size: 14em;
     padding: 0.2em 0 0.6em 0;
     font-weight: 500;
-    font-family: Times;
+    font-family: 'Playfair Display', serif;
 }
 
 form .subscription{
@@ -286,14 +283,15 @@ form .subscription{
 	font-size: 2em;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 0em;
+	font-weight: 200;
+	padding: 0.3em 0 0 0;
 	margin: 0;
 }
 
 #main-container #page-wrapper .header-title h1{
 	text-align: center;
     font-size: 4em;
-    font-family: Times;
+    font-family: 'Playfair Display', serif;
     padding: 0.2em 0.3em 0.6em 0.3em; 
 }
 
@@ -323,7 +321,7 @@ form .subscription{
 #main-container #page-wrapper .header-object h1{
 	text-align: left;
     font-size: 14em;
-    font-family: Times;
+    font-family: 'Playfair Display', serif;
     line-height: 1em;
 }
 
@@ -354,7 +352,7 @@ form .subscription{
 #main-container #page-wrapper .header-letter p, #main-container #page-wrapper .header-title p{
 	text-align: justify;
 	font-size: 1em;
-	font-family: Times;
+	font-family: 'Playfair Display', serif;
 }
 
 #main-container #page-wrapper .header-letter .intro, #main-container #page-wrapper .header-title .intro{
@@ -447,6 +445,10 @@ form.contact-us div.form-group input{
 #main-container #page-wrapper .page-nav .nav p{
 	color: #fff;
 	margin: 0;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 2.25em;
+    letter-spacing: 1px;
 }
 
 #main-container #page-wrapper .page-nav .nav a:hover, #main-container #page-wrapper .page-nav .nav a:focus{
@@ -470,6 +472,22 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content{
 	padding: 1em 4em;
+}
+
+#main-container #page-wrapper .page-content .container.fail{
+	    margin: 5em 0;
+}
+
+#main-container #page-wrapper .page-content .container.fail .fail-message span{
+	font-size: 1.2em;
+    font-weight: 100;
+    text-transform: uppercase;	
+}
+
+#main-container #page-wrapper .page-content p, #main-container #page-wrapper .page-content h3, #main-container #page-wrapper .page-content h4, #main-container #page-wrapper form{
+	font-size: .9em;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 992px){
@@ -535,7 +553,7 @@ form.contact-us div.form-group input{
     position: fixed;
     background: #555;
     padding: 4em 1em 7em 1em;
-    margin-top: -3.4em;
+    margin-top: -4em;
 }
 
 #main-container #page-wrapper .page-content .dico{
@@ -548,7 +566,12 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content .dico .letter h4{
     font-size: 6em;
-    font-size: Times;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 0.2em;
+}
+
+#main-container #page-wrapper .page-content .dico .letter p{
+    margin-left: 6em;
 }
 
 @media (max-width: 992px){
@@ -556,7 +579,7 @@ form.contact-us div.form-group input{
 		padding: 0;
 	}
 	#main-container #page-wrapper .page-content .aplhabet{
-		margin-top: -3.9em;
+		margin-top: -4.4em;
 	}
 }
 
@@ -574,8 +597,9 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content h2.title-page-content{
 	padding: 1em 0;
-	font-family: Times;
+	font-family: 'Playfair Display', serif;
 	font-size: 3em;
+	letter-spacing: 5px;
 }
 
 #main-container #page-wrapper .page-content h2.title-page-content:after{
@@ -584,7 +608,7 @@ form.contact-us div.form-group input{
     width: 3em;
     background: #555555;
     content: '';
-    margin-top: 0.2em;
+    margin-top: 0.3em;
 }
 
 #main-container #page-wrapper .page-content .list .ligne, #main-container #page-wrapper .page-content .list .actu{
@@ -834,7 +858,7 @@ form.contact-us div.form-group input{
 	width: 100%;
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 100;
 	color: #555;
 	font-size: 2em;
 }
@@ -863,7 +887,7 @@ form.contact-us div.form-group input{
 	font-size: 5em;
     display: block;
     line-height: 1em;
-    font-family: Times;
+    font-family: 'Playfair Display', serif;
 }
 
 #main-container #page-wrapper .page-content .cat .etape .header p span:first-child::after{
@@ -932,7 +956,7 @@ form.contact-us div.form-group input{
     width: 3em;
     background: #fff;
     content: '';
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
 }
 
 #main-container #page-wrapper .page-content .more .link .content .cross{
@@ -1003,7 +1027,7 @@ form.contact-us div.form-group input{
 	padding: 0.2em 0;
 	color: #555;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 100;
 }
 
 #main-container footer ul.list-unstyled ul{
@@ -1021,7 +1045,7 @@ form.contact-us div.form-group input{
 	background: #555;
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 100;
 }
 
 @media (max-width: 992px){
