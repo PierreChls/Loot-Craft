@@ -337,6 +337,7 @@ form .subscription{
 	font-size: 1em;
     margin-top: 3em;
     text-align: justify;
+    font-family: 'Playfair Display', serif;
 }
 
 @media (max-width: 992px){
