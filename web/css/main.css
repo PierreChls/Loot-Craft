@@ -267,6 +267,12 @@ a:hover, a:focus {
 	margin: 0 auto;
 }
 
+@media (max-width: 992px){
+	#main-container #page-wrapper .header-title{
+		width: 90%;
+	}
+}
+
 #main-container #page-wrapper .header-letter h1{
 	text-align: center;
     font-size: 14em;
@@ -282,6 +288,7 @@ form .subscription{
 
 #main-container #page-wrapper .header-title h1.newsletter-title{
 	font-size: 7em;
+	line-height: 1em;
 	margin: 1em auto 0 auto;
 }
 
