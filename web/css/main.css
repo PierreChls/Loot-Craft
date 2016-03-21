@@ -286,6 +286,10 @@ form .subscription{
 	margin: 1em auto;
 }
 
+form .subscription input{
+	margin-bottom: 1em;
+}
+
 #main-container #page-wrapper .header-title h1.newsletter-title{
 	font-size: 7em;
 	line-height: 1em;
