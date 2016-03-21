@@ -19,8 +19,9 @@
 .ns-box a, .ns-box p {
 	color: inherit;
 	opacity: 1;
-	font-weight: 700;
 	text-align: center;
+	font-weight: 100;
+	text-transform: uppercase;
 }
 
 .ns-box a:hover,
