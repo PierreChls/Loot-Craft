@@ -1,9 +1,16 @@
+
+/**********************/
+/*                    */
+/*        LOOT        */
+/*         &          */
+/*       CRAFT        */
+/*                    */
+/**********************/
+
+
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 
-/**************/
-/*   TITLES   */
-/**************/
 
 html, body, h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
   font-family: 'Nunito', sans-serif;
@@ -13,7 +20,8 @@ h1 {
   font-size: 55px;
   line-height: 55px;
   letter-spacing: -1px;
-  color: #525252;
+  color: #555;
+  text-shadow: #fff 3px 3px;
   font-weight: 700;
 }
 
@@ -21,7 +29,7 @@ h2 {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.5px;
-  color: #525252;
+  color: #555;
   font-weight: 700;
 }
 
@@ -29,7 +37,7 @@ h3 {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0px;
-  color: #535353;
+  color: #555;
   font-weight: 700;
 }
 
@@ -39,6 +47,35 @@ p {
   color: #525252;
   font-weight: 400;
 }
+
+/*****************/
+/*   BACKGROUND  */
+/*****************/
+
+.bg-inspiration{
+	background-color: rgba(191, 221, 229, 1); /*bleu*/
+}
+
+.bg-object{
+	background-color: rgba(195, 176, 164, 1); /*marron*/
+}
+
+.bg-tutoriel{
+	background: rgba(238, 126, 114, 1); /*rouge*/
+}
+
+.bg-bonplans{
+	background: rgba(228, 190, 108, 1); /*jaune*/
+}
+
+.bg-forum{
+	background: rgba(156, 145, 191, 1); /*violet*/
+}
+
+.bg-contact{
+	background: #d6cece;
+}
+
 
 /***************/
 /*  UTILITIES  */
@@ -325,15 +362,10 @@ a:hover, a:focus {
 }
 
 #main-container #page-wrapper .header-title{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 
-@media (max-width: 992px){
-	#main-container #page-wrapper .header-title{
-		width: 90%;
-	}
-}
 
 #main-container #page-wrapper .header-letter h1{
 	text-align: center;
@@ -365,7 +397,6 @@ form .subscription input{
 }
 
 #page-wrapper .header-object-subpage h1{
-	background: #a08c7f;
 	color: #fff;
 	font-size: 2em;
 	text-transform: uppercase;
@@ -373,6 +404,7 @@ form .subscription input{
 	font-weight: 200;
 	padding: 0.3em 0 0 0;
 	margin: 0;
+	text-shadow: none;
 }
 
 #main-container #page-wrapper .header-title h1{
@@ -1059,8 +1091,6 @@ form.contact-us div.form-group input{
 #main-container #page-wrapper .cat-object{
 	height: 50vh;
     position: relative;
-    background: #a08c7f;
-    border: 1px solid #F2F2F2;
 }
 
 #main-container #page-wrapper .cat-object h2{
