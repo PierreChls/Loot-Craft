@@ -104,6 +104,13 @@ a:hover, a:focus {
     letter-spacing: 1px;
 }
 
+#nav a{
+	font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
 #nav.open p{
 	font-size: 1.3em;
 	padding: 0.5em 0;
@@ -186,7 +193,7 @@ a:hover, a:focus {
 
 #nav .nav-home{
 	display: none;
-	margin: 1em auto 0 auto;
+	margin: 4em auto 0 auto;
 }
 
 #nav .nav-home img{
@@ -196,6 +203,61 @@ a:hover, a:focus {
 
 #nav.open .nav-home{
 	display: block;
+}
+
+#nav .nav-menu ul.navbar-nav{
+	width: 100%;
+	list-style: none;
+	padding: 0;
+}
+
+#nav .nav-menu ul.navbar-nav li{
+	width: 13.5%;
+}
+
+#nav .nav-menu ul.navbar-nav li a{
+	padding: 0;
+	font-weight: 600;
+	font-size: 0.8em;
+}
+
+#nav .nav-menu ul.navbar-nav li.navbar-brand-link{
+	width: 18.5%;
+}
+
+#nav .nav-menu ul.navbar-nav li.navbar-brand-link a.navbar-brand-logo{
+	width: 100%;
+	font-size: 1.3em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#nav.open .nav-menu ul.navbar-nav li.navbar-brand-link{
+	display: none;
+}
+
+#nav.open .nav-menu ul.navbar-nav{
+	margin: 0 auto;
+    width: 100%;
+}
+
+#nav.open .nav-menu ul.navbar-nav li{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    color: #555;
+    padding: 0.5em 0;
+}
+
+#nav .nav-icon .logo{
+	display: inline-block;
+    float: left;
+    height: 24px;
+}
+
+#nav .nav-icon .logo a{
+	font-size: 1.5em;
+    color: #555;
 }
 
 @media (max-width: 992px){

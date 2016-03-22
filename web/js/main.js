@@ -17,7 +17,7 @@ $(document).ready(function(){
   });
   
   /* Open/close menu */
-  $(".nav-icon").click(function(event){		
+  $(".nav-icon .hamburger").click(function(event){		
   		event.preventDefault();
   		if( $("#nav").hasClass("open") ){
   			$("#nav").removeClass("open");
