@@ -1,5 +1,15 @@
 $(document).ready(function(){
-  
+
+  $("#main-container").css("display", "none");
+  $("#main-container").fadeIn(2000);
+  $("a.transition").click(function(event){
+	  event.preventDefault();
+	  linkLocation = this.href;
+	   $("#main-container").fadeOut(1000, redirectPage);      
+  });
+  function redirectPage() {
+  	window.location = linkLocation;
+  }
   menu_responsive();
   
   $(document).ready(function(){

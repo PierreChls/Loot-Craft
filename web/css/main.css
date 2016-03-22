@@ -76,6 +76,9 @@ p {
 	background: #d6cece;
 }
 
+#main-container{
+	display: none;
+}
 
 /***************/
 /*  UTILITIES  */
@@ -172,7 +175,7 @@ a:hover, a:focus {
     width: 100%;
     background: #fff;
     text-align: center;
-    z-index: 0;
+    z-index: 2;
 }
 
 #nav-bottom p {
