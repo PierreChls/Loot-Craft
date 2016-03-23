@@ -955,6 +955,10 @@ form.contact-us div.form-group input{
 	color: #fff;
 }
 
+#main-container #page-wrapper #objects-skroll-bg{
+	background:url('../img/alphabet/scroll-bg.png') repeat fixed;
+}
+
 #main-container #page-wrapper .page-content #objects-search{
 	padding-bottom: 50vh;
 }

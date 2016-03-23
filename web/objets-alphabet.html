@@ -22,7 +22,7 @@
 	  
 	 <link rel="stylesheet" type="text/css" href="lib/fancybox/jquery.fancybox.css" />
 	 <script type="text/javascript" src="lib/fancybox/jquery.fancybox.pack.js"></script>
-  
+	 
 	</head>
 
 	<body>  
@@ -75,7 +75,7 @@
 				<div class="header-object-subpage row">
 					<h1 class="bg-object">Trouver un objet</h1>
 				</div>
-				
+				<div id="objects-skroll-bg" data-0="background-position:0px 0px;" data-100000="background-position:0px -50000px;">
 				<div class="page-content object-alphabet row">
 					<div class="aplhabet">
 						<a class="scroll" href="#letter-a"><p>a</p></a>
@@ -236,10 +236,20 @@
 					
 				</div>
 				
+				</div>
+				
 			</section>
 
 	    <script src="js/bootstrap.min.js"></script>
 	    <script src="js/main.js"></script>
+	    
+	    <script type="text/javascript" src="lib/skrollr/skrollr.min.js"></script>
+
+	<script type="text/javascript">
+	skrollr.init({
+		forceHeight: false
+	});
+	</script>
 	    
 	    
     </body>
