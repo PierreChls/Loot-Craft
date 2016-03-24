@@ -956,7 +956,10 @@ form.contact-us div.form-group input{
 }
 
 #main-container #page-wrapper #objects-skroll-bg{
-	background:url('../img/alphabet/scroll-bg.png') repeat fixed;
+	background:url('../img/alphabet/scroll-bg.png');
+	background-attachment: scroll;
+	background-repeat: repeat-y;
+	background-size: contain;
 }
 
 #main-container #page-wrapper .page-content #objects-search{
