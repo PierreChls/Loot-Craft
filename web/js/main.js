@@ -5,7 +5,7 @@ $(document).ready(function(){
   $("a.transition").click(function(event){
 	  event.preventDefault();
 	  linkLocation = this.href;
-	   $("#main-container").fadeOut(800, redirectPage);      
+	   $("#main-container").fadeOut(600, redirectPage);      
   });
   function redirectPage() {
   	window.location = linkLocation;
