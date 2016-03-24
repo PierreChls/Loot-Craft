@@ -20,8 +20,7 @@ h1 {
   font-size: 55px;
   line-height: 55px;
   letter-spacing: -1px;
-  color: #555;
-  text-shadow: #fff 3px 3px;
+  color: #333;
   font-weight: 700;
 }
 
@@ -29,7 +28,7 @@ h2 {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.5px;
-  color: #555;
+  color: #333;
   font-weight: 700;
 }
 
@@ -37,14 +36,14 @@ h3 {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0px;
-  color: #555;
+  color: #333;
   font-weight: 700;
 }
 
 p {
   font-size: 17px;
   line-height: 22px;
-  color: #525252;
+  color: #333;
   font-weight: 400;
 }
 
@@ -53,23 +52,24 @@ p {
 /*****************/
 
 .bg-inspiration{
-	background-color: rgba(191, 221, 229, 1); /*bleu*/
+	background-color: rgba(191, 221, 229, 1) !important; /*bleu*/
 }
 
 .bg-object{
-	background-color: rgba(195, 176, 164, 1); /*marron*/
+	background-color: rgba(195, 176, 164, 1) !important; /*marron*/
+	/*background-color: rgba(207, 193, 184, 1);*/
 }
 
 .bg-tutoriel{
-	background: rgba(238, 126, 114, 1); /*rouge*/
+	background: rgba(238, 126, 114, 1) !important; /*rouge*/
 }
 
 .bg-bonplans{
-	background: rgba(228, 190, 108, 1); /*jaune*/
+	background: rgba(228, 190, 108, 1) !important; /*jaune*/
 }
 
 .bg-forum{
-	background: rgba(156, 145, 191, 1); /*violet*/
+	background: rgba(156, 145, 191, 1) !important; /*violet*/
 }
 
 .bg-contact{
@@ -94,7 +94,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
-  color: #525252;
+  color: #333;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
@@ -102,11 +102,11 @@ a:hover, a:focus {
 }
 
 ::selection {
-	background: #525252; /* Safari */
+	background: #333; /* Safari */
 	color: #FFFFFF;
 }
 ::-moz-selection {
-	background: #525252; /* Firefox */
+	background: #333; /* Firefox */
 	color: #FFFFFF;
 }
 
@@ -285,7 +285,7 @@ a:hover, a:focus {
     width: 100%;
     margin: 0 auto;
     font-size: 1.3em;
-    color: #555;
+    color: #333;
     padding: 0.5em 0;
 }
 
@@ -297,7 +297,7 @@ a:hover, a:focus {
 
 #nav .nav-icon .logo a{
 	font-size: 1.5em;
-    color: #555;
+    color: #333;
 }
 
 @media (max-width: 992px){
@@ -360,8 +360,12 @@ a:hover, a:focus {
 }
 
 
-#main-container #page-wrapper .header-letter, #main-container #page-wrapper .header-title, #main-container #page-wrapper .header-object, #page-wrapper .header-object-subpage{
+#main-container #page-wrapper .header-letter, #main-container #page-wrapper .header-title, #page-wrapper .header-object-subpage{
 	padding: 1em;
+}
+
+#main-container #page-wrapper .header-object{
+	padding: 0 1em 0 0;
 }
 
 #main-container #page-wrapper .header-title{
@@ -441,18 +445,18 @@ form .subscription input{
 }
 
 #main-container #page-wrapper .header-object h1{
-	text-align: left;
+	text-align: center;
     font-size: 14em;
     font-family: 'Playfair Display', serif;
     line-height: 1em;
 }
 
 #main-container #page-wrapper .header-object h1:after{
-	height: 0.05em;
+	/*height: 0.05em;
     display: block;
     width: 1em;
-    background: #555555;
-    content: '';
+    background: #333555;
+    content: '';*/
 }
 
 #main-container #page-wrapper .header-object p{
@@ -493,7 +497,7 @@ form .subscription input{
 .connect{
 	margin: 1em auto;
 	display: block;
-	border-top: 0.5em solid #555;
+	border-top: 0.5em solid #333;
 }
 
 .connect.header{
@@ -552,7 +556,7 @@ form.contact-us div.form-group input{
 }
 
 #main-container #page-wrapper .page-nav{
-	background: #555;
+	background: #333;
 	padding: 1em 4em;
 	overflow: hidden;
 }
@@ -632,12 +636,12 @@ form.contact-us div.form-group input{
 	padding: 0;
 	margin: 0 auto 1em auto;
 	float: left;
-	border-right: 1em solid #555;
+	border-right: 1em solid #333;
 }
 
 #main-container #page-wrapper .page-content .people:nth-child(2n) img{
 	border-right: 0;
-	border-left: 1em solid #555;
+	border-left: 1em solid #333;
 	float: right;
 }
 
@@ -674,7 +678,7 @@ form.contact-us div.form-group input{
     overflow: scroll;
     display: inline-block;
     position: fixed;
-    background: #555;
+    background: #333;
     padding: 4em 1em 7em 1em;
     margin-top: -4em;
 }
@@ -729,7 +733,7 @@ form.contact-us div.form-group input{
 	height: 0.1em;
     display: block;
     width: 3em;
-    background: #555555;
+    background: #333;
     content: '';
     margin-top: 0.3em;
 }
@@ -741,7 +745,7 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content .list .actu{
 	display: block;
-	border-left: 1em solid #555;
+	border-left: 1em solid #333;
 	padding: 0.5em 1em;
 	margin: 1em auto;
 }
@@ -752,7 +756,7 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content .list .actu h4 span{
 	text-transform: uppercase;
-	color: #555;
+	color: #333;
 }
 
 @media (max-width: 600px){
@@ -798,7 +802,7 @@ form.contact-us div.form-group input{
 }
 
 #main-container #page-wrapper .page-content .list .ligne .content{
-	border-bottom: 0.2em solid #555;
+	border-bottom: 0.2em solid #333;
 	display: inline-block;
 }
 
@@ -872,7 +876,7 @@ form.contact-us div.form-group input{
 	margin-left: 5%;
     padding: 1em;
     background: #E8E8E8;
-    border-top: 0.2em solid #555;
+    border-top: 0.2em solid #333;
 }
 
 #main-container #page-wrapper .page-content .comments .comment .text p{
@@ -946,13 +950,13 @@ form.contact-us div.form-group input{
 }
 
 #main-container #page-wrapper .page-content .cat .etape .header{
-	background: #555;
+	background: #333;
 	margin: 0 auto 1em auto;
 }
 
 #main-container #page-wrapper .page-content .cat .etape .header p{
 	margin: 1em auto 0 auto;
-	color: #fff;
+	color: #333;
 }
 
 #main-container #page-wrapper #objects-skroll-bg{
@@ -989,21 +993,21 @@ form.contact-us div.form-group input{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 100;
-	color: #555;
+	color: #333;
 	font-size: 2em;
 }
 
 #main-container #page-wrapper .page-content #objects-search form fieldset input::-webkit-input-placeholder{
-	color: #555;
+	color: #333;
 }
 #main-container #page-wrapper .page-content #objects-search form fieldset input:-moz-placeholder{
-	color: #555;
+	color: #333;
 }
 #main-container #page-wrapper .page-content #objects-search form fieldset input::-moz-placeholder{
-	color: #555;
+	color: #333;
 }
 #main-container #page-wrapper .page-content #objects-search form fieldset input:-ms-input-placeholder{
-	color: #555;
+	color: #333;
 }
 
 @media (max-width: 780px){
@@ -1049,7 +1053,7 @@ form.contact-us div.form-group input{
 #main-container #page-wrapper .page-content .mosaic div a .text{
     margin: 0;
     padding: 0.5em;
-    border-left: 0.5em solid #555;
+    border-left: 0.5em solid #333;
     background: #DEDEDE;
 }
 
@@ -1062,13 +1066,12 @@ form.contact-us div.form-group input{
 }
 
 #main-container #page-wrapper .page-content .more .link .content{
-	background: #555;
 	padding: 1em;
 	margin: 1em auto;
 }
 
 #main-container #page-wrapper .page-content .more .link .content p, #main-container #page-wrapper .page-content .more .link .content h3{
-	color: #fff;
+	color: #333;
 }
 
 #main-container #page-wrapper .page-content .more .link .content p{
@@ -1084,7 +1087,7 @@ form.contact-us div.form-group input{
 	height: 0.1em;
     display: block;
     width: 3em;
-    background: #fff;
+    background: #333;
     content: '';
     margin-bottom: 0.3em;
 }
@@ -1133,13 +1136,17 @@ form.contact-us div.form-group input{
     vertical-align: bottom;
 }
 
-#main-container #page-wrapper .cat-object .vertical-align-wrap .vertical-align--middle h2, #main-container #page-wrapper .cat-object .vertical-align-wrap .vertical-align--middle p{
-    color: #F2F2F2;
+#main-container #page-wrapper .cat-object .vertical-align-wrap .vertical-align--middle h2{
+	color: #333;
+}
+
+#main-container #page-wrapper .cat-object .vertical-align-wrap .vertical-align--middle p{
+    color: #555;
 }
 
 #main-container footer{
 	padding: 1em 4em;
-	background: #ccc;
+	background: #333;
 	text-align: center;
 	font-size: 1em;
 	border-bottom: 4em solid #fff;
@@ -1148,14 +1155,18 @@ form.contact-us div.form-group input{
 #main-container footer ul:first-child{
 	margin-top: 4em;
 	padding: 1em;
-	border-top: 0.5em solid #555;
+	border-top: 0.5em solid #fff;
 }
 
 #main-container footer ul li{
 	padding: 0.2em 0;
-	color: #555;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 100;
+}
+
+#main-container footer ul li a:hover{
+	color: #fff;
 }
 
 #main-container footer ul.list-unstyled ul{
@@ -1170,10 +1181,14 @@ form.contact-us div.form-group input{
 	display: block;
 	width: 100%;
 	padding: 1em 0;
-	background: #555;
-	color: #fff;
+	background: #fff;
+	color: #333;
 	text-transform: uppercase;
 	font-weight: 100;
+}
+
+#main-container footer .more a:hover{
+	color: #333;
 }
 
 @media (max-width: 992px){
