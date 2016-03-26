@@ -54,26 +54,49 @@ p {
 .bg-inspiration{
 	background-color: rgba(191, 221, 229, 1) !important; /*bleu*/
 }
+.color-inspiration{
+	color: rgba(191, 221, 229, 1) !important;
+}
 
 .bg-object{
 	background-color: rgba(195, 176, 164, 1) !important; /*marron*/
 	/*background-color: rgba(207, 193, 184, 1);*/
 }
 
+.color-object{
+	color: rgba(195, 176, 164, 1) !important;
+}
+
 .bg-tutoriel{
 	background: rgba(190, 184, 211, 1) !important; /*violet*/
+}
+
+.color-tutoriel{
+	color: rgba(190, 184, 211, 1) !important;
 }
 
 .bg-bonplans{
 	background: rgba(230, 198, 129, 1) !important; /*jaune*/
 }
 
-	.bg-forum{
+.color-bonplans{
+	color: rgba(230, 198, 129, 1) !important;
+}
+
+.bg-forum{
 	background: rgba(149, 186, 144, 1) !important; /*vert*/
+}
+
+.color-forum{
+	color: rgba(149, 186, 144, 1) !important;
 }
 
 .bg-contact{
 	background: rgba(238, 151, 142, 1) !important; /*rouge*/
+}
+
+.color-contact{
+	color: rgba(238, 151, 142, 1) !important;
 }
 
 #main-container{
