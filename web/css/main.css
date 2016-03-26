@@ -64,7 +64,7 @@ p {
 }
 
 .color-object{
-	color: rgba(195, 176, 164, 1);
+	color: rgba(195, 176, 164, 1) !important;
 }
 
 .bg-tutoriel{
@@ -72,7 +72,7 @@ p {
 }
 
 .color-tutoriel{
-	color: rgba(190, 184, 211, 1);
+	color: rgba(190, 184, 211, 1) !important;
 }
 
 .bg-bonplans{
@@ -80,7 +80,7 @@ p {
 }
 
 .color-bonplans{
-	color: rgba(230, 198, 129, 1);
+	color: rgba(230, 198, 129, 1) !important;
 }
 
 .bg-forum{
@@ -88,7 +88,7 @@ p {
 }
 
 .color-forum{
-	color: rgba(149, 186, 144, 1);
+	color: rgba(149, 186, 144, 1) !important;
 }
 
 .bg-contact{
@@ -96,7 +96,7 @@ p {
 }
 
 .color-contact{
-	color: rgba(238, 151, 142, 1);
+	color: rgba(238, 151, 142, 1) !important;
 }
 
 #main-container{
@@ -292,6 +292,7 @@ a:hover, a:focus {
 	width: 100%;
 	font-size: 1.3em;
 	margin: 0 auto;
+	text-align: center;
 }
 
 #nav.open .nav-menu ul.navbar-nav li.navbar-brand-link{
@@ -458,7 +459,7 @@ form .subscription input{
 
 
 #main-container #page-wrapper .header-title p.talk-tuto{
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	text-align: center;
 }
 
@@ -532,8 +533,8 @@ form .subscription input{
 
 .connect h3{
 	text-align: center;
+	font-weight: 700 !important;
 	text-transform: uppercase;
-	font-family: 'Montserrat';
 }
 
 form.contact-us div.form-group input.form-control{
@@ -574,7 +575,7 @@ form.contact-us div.form-group input{
 }
 
 #main-container #page-wrapper .header-letter .connect p{
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 }
 
 #main-container #page-wrapper .page-nav{
@@ -1181,15 +1182,32 @@ form.contact-us div.form-group input{
     margin: 0 auto 1em auto;
 }
 
+#main-container #page-wrapper .page-content .mosaic div img{
+	width: 100%;
+}
+
+
 #main-container #page-wrapper .page-content .mosaic div a .text{
     margin: 0;
     padding: 0.5em;
-    border-left: 0.5em solid #333;
-    background: #DEDEDE;
+    height: 6em;
+    display: table;
+    width: 100%;
+    border-left: 0.3em solid #333;
 }
 
 #main-container #page-wrapper .page-content .mosaic div a .text h4{
     font-size: 1.2em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: 400;
+}
+
+#main-container #page-wrapper .page-content .mosaic div a .text h4 span.description{
+    display: block;
+    font-size: 0.8em;
+    font-weight: 100;
 }
 
 #main-container #page-wrapper .page-content .mosaic div a .text p{
