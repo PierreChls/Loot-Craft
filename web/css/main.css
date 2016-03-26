@@ -64,7 +64,7 @@ p {
 }
 
 .color-object{
-	color: rgba(195, 176, 164, 1) !important;
+	color: rgba(195, 176, 164, 1);
 }
 
 .bg-tutoriel{
@@ -72,7 +72,7 @@ p {
 }
 
 .color-tutoriel{
-	color: rgba(190, 184, 211, 1) !important;
+	color: rgba(190, 184, 211, 1);
 }
 
 .bg-bonplans{
@@ -80,7 +80,7 @@ p {
 }
 
 .color-bonplans{
-	color: rgba(230, 198, 129, 1) !important;
+	color: rgba(230, 198, 129, 1);
 }
 
 .bg-forum{
@@ -88,7 +88,7 @@ p {
 }
 
 .color-forum{
-	color: rgba(149, 186, 144, 1) !important;
+	color: rgba(149, 186, 144, 1);
 }
 
 .bg-contact{
@@ -96,7 +96,7 @@ p {
 }
 
 .color-contact{
-	color: rgba(238, 151, 142, 1) !important;
+	color: rgba(238, 151, 142, 1);
 }
 
 #main-container{
@@ -292,7 +292,6 @@ a:hover, a:focus {
 	width: 100%;
 	font-size: 1.3em;
 	margin: 0 auto;
-	text-align: center;
 }
 
 #nav.open .nav-menu ul.navbar-nav li.navbar-brand-link{

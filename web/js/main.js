@@ -5,7 +5,10 @@ $(document).ready(function(){
   $("a.transition").click(function(event){
 	  event.preventDefault();
 	  linkLocation = this.href;
-	   $("#main-container").fadeOut(600, redirectPage);      
+	  $("#nav.open .nav-home").fadeOut(600);
+	  $("#nav.open .nav-menu").fadeOut(600);
+	  $("#nav.open .nav-footer").fadeOut(600);
+	  $("#main-container").fadeOut(600, redirectPage);      
   });
   function redirectPage() {
   	window.location = linkLocation;
