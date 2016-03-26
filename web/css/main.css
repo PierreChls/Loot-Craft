@@ -68,7 +68,7 @@ p {
 	background: rgba(230, 198, 129, 1) !important; /*jaune*/
 }
 
-.bg-forum{
+	.bg-forum{
 	background: rgba(149, 186, 144, 1) !important; /*vert*/
 }
 
@@ -743,20 +743,23 @@ form.contact-us div.form-group input{
     margin-bottom: 0em;
 }
 
+
 #main-container #page-wrapper .page-content .list .actu{
 	display: block;
-	border-left: 1em solid #333;
+	border-left: 1em solid rgba(230, 198, 129, 1);
 	padding: 0.5em 1em;
 	margin: 1em auto;
 }
 
 #main-container #page-wrapper .page-content .list .actu h4{
-	color: #777;
+	color: #333;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 #main-container #page-wrapper .page-content .list .actu h4 span{
+	font-weight: 600;
 	text-transform: uppercase;
-	color: #333;
 }
 
 @media (max-width: 600px){
@@ -781,7 +784,7 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content .list .actu p{
 	font-style: italic;
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: justify;
 }
 
@@ -802,8 +805,26 @@ form.contact-us div.form-group input{
 }
 
 #main-container #page-wrapper .page-content .list .ligne .content{
-	border-bottom: 0.2em solid #333;
+	/*border-bottom: 0.2em solid #333;*/
 	display: inline-block;
+}
+
+#main-container #page-wrapper .page-content .ligne .content hr{
+	height: 6px;
+    margin: 0;
+    border: 0;
+}
+
+#main-container #page-wrapper .page-content .ligne .content hr.separator-green{
+	background: url('../img/separator/hr-green.png') repeat-x 0 0;
+}
+
+#main-container #page-wrapper .page-content .ligne .content hr.separator-yellow{
+	background: url('../img/separator/hr-yellow.png') repeat-x 0 0;
+}
+
+#main-container #page-wrapper .page-content .ligne .content hr.separator-wave-green{
+	background: url('../img/separator/hr-wave-green.png') repeat-x 0 0;
 }
 
 #main-container #page-wrapper .page-content .list .ligne .content p:first-child{
