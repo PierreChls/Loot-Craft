@@ -918,6 +918,7 @@ form.contact-us div.form-group input{
 #main-container #page-wrapper .page-content .ligne .content hr{
 	height: 6px;
     margin: 0;
+    width: 100%;
     border: 0;
 }
 
