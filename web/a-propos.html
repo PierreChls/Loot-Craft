@@ -98,27 +98,27 @@
 				<div class="page-content row">
 					<h2 id="equipe" class="title-page-content">L'équipe</h2>
 					<div class="row">
-						<div class="people row col-md-7">
-							<img src="img/team/jerome.jpg" class=" col-md-6 img-responsive" alt="people" title="People" />
-							<div class="info col-md-6 col-xs-12">
+						<div class="people row col-md-12">
+							<img src="img/team/jerome.jpg" class="col-md-3 col-sm-5 col-xs-6 img-responsive" alt="people" title="People" />
+							<div class="info col-md-3 col-sm-5 col-xs-6">
 								<h3>Jérome</h3>
-								<p>Artisan</p>
+								<p class="job">Artisan</p>
 								<p>Un brain écolo dans la vie comme dans ses créations, aime partager son savoir de façon accessible.</p>
 							</div>
 						</div>
-						<div class="people row col-md-7">
-							<img src="img/team/pierre.jpg" class=" col-md-6 img-responsive" alt="people" title="People" />
-							<div class="info col-md-6 col-xs-12">
+						<div class="people row col-md-12">
+							<img src="img/team/pierre.jpg" class="col-md-3 col-sm-5 col-xs-6 img-responsive" alt="people" title="People" />
+							<div class="info col-md-3 col-sm-5 col-xs-6">
 								<h3>Pierre</h3>
-								<p>Designer</p>
+								<p class="job">Designer</p>
 								<p>Amoureux de design et du style minimaliste, s'adapte aux tendances actuelles tout en innovant.</p>
 							</div>
 						</div>
-						<div class="people row col-md-7">
-							<img src="img/team/romain.jpg" class=" col-md-6 img-responsive" alt="people" title="People" />
-							<div class="info col-md-6 col-xs-12">
+						<div class="people row col-md-12">
+							<img src="img/team/romain.jpg" class="col-md-3 col-sm-5 col-xs-6 img-responsive" alt="people" title="People" />
+							<div class="info col-md-3 col-sm-5 col-xs-6">
 								<h3>Romain</h3>
-								<p>Dénicheur</p>
+								<p class="job">Dénicheur</p>
 								<p>Armé de sa personnalité à tendance fouineur, cet explorateur aime dénicher les bon plans et les faire partager.</p>
 							</div>
 						</div>
@@ -187,6 +187,34 @@
 	    <script src="js/classie.js"></script>
 		<script src="js/notificationFx.js"></script>
 		<script src="js/bttn-notif.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				if( $(window).width() > 450){
+					setTimeout(function(){
+						resizeIntroDiv(1);
+					}, 0);
+			    }
+			    else{
+				    resizeIntroDiv(0);
+			    }
+			    
+			    $( window ).resize(function() {
+					if( $(window).width() > 450) resizeIntroDiv(1);
+					else resizeIntroDiv(0);
+				});
+			    
+			    function resizeIntroDiv(verif){
+			    	if(verif == 1){
+			    		$(".people .info").height( $(".people img").height());
+			    	}
+			    	else{
+				    	$(".people .info").css("height", "auto");
+			    	}
+			    }
+			    
+			});
+		</script>
 	    
     </body>
 </html>

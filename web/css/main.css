@@ -722,17 +722,46 @@ form.contact-us div.form-group input{
 	float: right;
 }
 
-#main-container #page-wrapper .page-content .people:nth-child(2n) .info {
-	text-align: right;
+#main-container #page-wrapper .page-content .people:nth-child(2n) .info{
+	float: right;
+}
+
+#main-container #page-wrapper .page-content .people .info{
+	display: table;
+	text-align: justify;
+	-moz-text-align-last: left; /* Code for Firefox */
+    text-align-last: left;
+}
+
+#main-container #page-wrapper .page-content .people:nth-child(2n) .info{
+	text-align: justify;
+	-moz-text-align-last: right; /* Code for Firefox */
+    text-align-last: right;
 }
 
 #main-container #page-wrapper .page-content .people h3{
 	font-size: 2em;
 	margin-bottom: 1em;	
+	display: table-cell;
+	vertical-align: middle;
 }
 
 #main-container #page-wrapper .page-content .people p{
 	margin-bottom: 1em;	
+	display: table-row;
+	vertical-align: middle;
+}
+
+#main-container #page-wrapper .page-content .people .info p.job{
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+@media (max-width: 450px){
+	#main-container #page-wrapper .page-content .people .info, #main-container #page-wrapper .page-content .people img{
+		width: 100%;
+	}
 }
 
 
