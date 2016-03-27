@@ -396,6 +396,49 @@ span.ampersand{
 	padding: 0 1em 0 0;
 }
 
+#main-container #page-wrapper .header-object img{
+	padding-right: 0;
+}
+
+@media (max-width: 992px){
+	#main-container #page-wrapper .header-object{
+		padding: 0;
+	}
+	
+	#main-container #page-wrapper .header-object img{
+		padding: 0;
+	}
+}
+
+#main-container #page-wrapper .header-object .intro{
+	display: table;
+}
+
+#main-container #page-wrapper .header-object .intro .letterobject{
+	display: table-row;
+	vertical-align: top;
+}
+
+#main-container #page-wrapper .header-object .intro .letterobject h1{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#main-container #page-wrapper .header-object .intro p{
+	display: table-row;
+	vertical-align: bottom;
+}
+
+@media (max-width: 767px){
+	#main-container #page-wrapper .header-object .intro{
+		margin: 1em auto 3em auto;
+	}
+	
+	#main-container #page-wrapper .header-object .intro .letterobject, #main-container #page-wrapper .header-object .intro .letterobject h1, #main-container #page-wrapper .header-object .intro p{
+		display: block;
+	}
+}
+
 #main-container #page-wrapper .header-title{
 	width: 100%;
 	margin: 0 auto;
