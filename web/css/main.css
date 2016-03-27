@@ -152,6 +152,19 @@ span.ampersand{
     z-index: 12;
 }
 
+@media (max-width: 992px){
+	#nav {
+		padding: 1em 4em;
+	}
+}
+
+@media (max-width: 600px){
+	#nav {
+		padding: 1em 2em;
+	}
+}
+
+
 #nav.open{
 	height: auto;
 	position: relative;

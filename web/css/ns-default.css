@@ -12,6 +12,12 @@
 	text-align: center;
 }
 
+@media (max-width: 992px){
+	.ns-box {
+		padding: 1.45em;
+	}
+}
+
 .ns-box.ns-show {
 	pointer-events: auto;
 }
