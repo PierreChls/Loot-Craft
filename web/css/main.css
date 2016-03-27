@@ -1298,10 +1298,14 @@ form.contact-us div.form-group input{
 	padding: 1em;
 	height: 15em;
 	margin: 1em auto;
+	display: table;
+	width: 100%;
 }
 
 #main-container #page-wrapper .page-content .more .link .content p, #main-container #page-wrapper .page-content .more .link .content h3{
 	color: #333;
+	display: table-row;
+	vertical-align: bottom;
 }
 
 #main-container #page-wrapper .page-content .more .link .content p{
@@ -1320,6 +1324,7 @@ form.contact-us div.form-group input{
     background: #333;
     content: '';
     margin-bottom: 0.3em;
+    margin-top: 0.3em;
 }
 
 #main-container #page-wrapper .page-content .more .link .content .cross{
