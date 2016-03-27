@@ -8,8 +8,9 @@
 /**********************/
 
 
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
-@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,300,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
 
 
 html, body, h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
@@ -131,6 +132,10 @@ a:hover, a:focus {
 ::-moz-selection {
 	background: #333; /* Firefox */
 	color: #FFFFFF;
+}
+
+span.ampersand{
+	font-family: 'Lora', serif;
 }
 
 
@@ -502,6 +507,7 @@ form .subscription input{
 #main-container #page-wrapper .header-letter p, #main-container #page-wrapper .header-title p{
 	text-align: justify;
 	font-size: 1em;
+	font-weight: 600;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -554,6 +560,10 @@ form.contact-us div.form-group input{
 	margin: 0 auto;
 }
 
+.connect p{
+	font-weight: 400 !important;
+}
+
 .connect p.subscribe:before {
     content: "> ";
     font-weight: 800;
@@ -576,6 +586,7 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .header-letter .connect p{
 	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
 }
 
 #main-container #page-wrapper .page-nav{
@@ -767,6 +778,10 @@ form.contact-us div.form-group input{
     margin-bottom: 0em;
 }
 
+#main-container #page-wrapper .page-content .list .ligne p{
+	font-weight: 400;
+	font-size: 1em;
+}
 
 #main-container #page-wrapper .page-content .list .actu{
 	display: block;
@@ -949,8 +964,20 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content .list .ligne .content p span{
 	padding-left: 1em;
-	font-style: italic;
 	font-size: 0.8em;
+}
+
+#main-container #page-wrapper .page-content .list .ligne .content p span:nth-child(2){
+	font-style: italic;
+}
+
+@media (max-width: 600px){
+	#main-container #page-wrapper .page-content .list .ligne .content p span{
+		display: block;
+	}
+	#main-container #page-wrapper .page-content .list .ligne .content p span:before{
+		content: none !important;
+	}
 }
 
 #main-container #page-wrapper .page-content .list .ligne .content p span:before{
@@ -1226,6 +1253,7 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content .more .link .content{
 	padding: 1em;
+	height: 15em;
 	margin: 1em auto;
 }
 
