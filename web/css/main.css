@@ -1041,6 +1041,16 @@ form.contact-us div.form-group input{
 	padding-right: 0;
 }
 
+@media (max-width: 992px){
+	#main-container #page-wrapper .page-content .cat .description p:first-child, #main-container #page-wrapper .page-content .cat .description ul:first-child{
+		padding-left: 15px;
+	}
+
+	#main-container #page-wrapper .page-content .cat .description p:nth-child(2), #main-container #page-wrapper .page-content .cat .description ul:nth-child(2){
+		padding-right: 15px;
+	}
+}
+
 #main-container #page-wrapper .page-content .cat .description.more span{
 	font-weight: 700;
 }
