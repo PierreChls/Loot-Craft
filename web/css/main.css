@@ -1213,6 +1213,12 @@ form.contact-us div.form-group input{
 	color: #333;
 }
 
+@media (max-width: 767px){
+	#main-container #page-wrapper .page-content .cat .etape .header p {
+		margin: 1em auto 5em auto;
+	}
+}
+
 #main-container #page-wrapper #objects-skroll-bg{
 	background:url('../img/alphabet/scroll-bg.png');
 	background-attachment: scroll;
@@ -1285,7 +1291,7 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content .cat .etape .header p span:nth-child(2){
 	font-size: 2em;
-    margin-top: 0.5em;
+    margin-top: 1.5em;
     display: block;
     line-height: 1em;
 }
