@@ -438,6 +438,7 @@ span.ampersand{
 }
 
 #main-container #page-wrapper .header-object .intro p{
+	font-weight: 600;
 	display: table-row;
 	vertical-align: bottom;
 }
