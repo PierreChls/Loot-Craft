@@ -32,6 +32,7 @@ $(document).ready(function(){
 			layout : 'bar',
 			effect : 'slidetop',
 			type : 'warning', // notice, warning or error
+			ttl : 1500,
 			onClose : function() {
 				bttn_copy_url.disabled = false;
 			}
