@@ -247,6 +247,7 @@ span.ampersand{
 }
 
 #nav-left .home{
+	outline: none;
     position: fixed;
     width: 3.5em;
     display: block;
@@ -865,6 +866,12 @@ form.contact-us div.form-group input{
     margin-bottom: 0em;
 }
 
+
+#main-container #page-wrapper .page-content .list .ligne.object-line{
+	width: 49%;
+}
+
+
 #main-container #page-wrapper .page-content .list .ligne p{
 	font-weight: 400;
 	font-size: 1em;
@@ -1176,6 +1183,14 @@ form.contact-us div.form-group input{
     background: #DEDEDE;
     border-radius: 0;
 }
+
+@media (max-width: 400px){
+	#main-container #page-wrapper .page-content .cat .description.more progress {
+		display: block;
+		margin-left: 0;
+	}
+}
+
 #main-container #page-wrapper .page-content .cat .description.more progress::-moz-progress-bar{
    background: #9b9b9b;
    border-radius: 0;
@@ -1524,6 +1539,25 @@ form.contact-us div.form-group input{
 	#main-container footer{
 		border-bottom: 0;
 		padding: 1em;
+	}
+}
+
+@media (max-height: 370px){
+	#main-container #page-wrapper {
+	    padding: 4em 0em;
+	}
+	#main-container footer{
+		border-bottom: 0;
+		padding: 1em;
+	}
+	#main-container #page-wrapper .page-content .aplhabet{
+		margin-top: -4.4em;
+	}
+	#main-container #page-wrapper .page-content.object-alphabet{
+		padding: 0;
+	}
+	#main-container #page-wrapper .header-object img{
+		padding: 0;
 	}
 }
 
