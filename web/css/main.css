@@ -536,15 +536,30 @@ form .subscription input{
     padding: 0.2em 0.3em 0.6em 0.3em; 
 }
 
+
+#main-container #page-wrapper .header-title h1.talk{
+	width: 80%;
+	margin: 0.5em 10%;
+}
+
+@media (max-width: 992px){
+	#main-container #page-wrapper .header-title h1.talk{
+		width: 100%;
+		margin: 0.5em 0;
+	}
+}
+
 #main-container #page-wrapper .header-title h1.talk:before{
-	content: open-quote;
+	content: url('../img/start-talk.svg');
+	padding-bottom: 0.5em;
 	display: block;
 	text-align: left;
 }
 
 #main-container #page-wrapper .header-title h1.talk:after{
-	content: close-quote;
+	content: url('../img/close-talk.svg');
 	display: block;
+	padding-top: 0.5em;
 	text-align: right;
 	margin-top: 0.5em;
 }
@@ -819,12 +834,24 @@ form.contact-us div.form-group input{
 #main-container #page-wrapper .page-content .people .info{
 	display: table;
 	text-align: justify;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
 	-moz-text-align-last: left; /* Code for Firefox */
     text-align-last: left;
 }
 
 #main-container #page-wrapper .page-content .people:nth-child(2n) .info{
 	text-align: justify;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
 	-moz-text-align-last: right; /* Code for Firefox */
     text-align-last: right;
 }
@@ -1257,6 +1284,7 @@ form.contact-us div.form-group input{
     display: inline-block;
 }
 
+
 #main-container #page-wrapper .page-content .comments .comment .user .open-talk img{
 	width: 50%;
 	height: auto;
@@ -1289,6 +1317,18 @@ form.contact-us div.form-group input{
 
 #main-container #page-wrapper .page-content .comments .comment .text p{
 	font-size: 1em;
+}
+
+@media (max-width: 600px){
+	#main-container #page-wrapper .page-content .comments .comment .user .open-talk{
+		display: none;
+	}
+	#main-container #page-wrapper .page-content .comments .comment .user .content{
+		width: 100%;
+	}
+	#main-container #page-wrapper .page-content .comments .comment .text{
+		margin-left: 0;
+	}
 }
 
 #main-container #page-wrapper .page-content .cat{

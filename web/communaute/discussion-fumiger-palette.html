@@ -26,6 +26,10 @@
 	  
 	 <link rel="stylesheet" type="text/css" href="../lib/fancybox/jquery.fancybox.css" />
 	 <script type="text/javascript" src="../lib/fancybox/jquery.fancybox.pack.js"></script>
+	 
+	 <link rel="stylesheet" href="../lib/mixitup/main.css" type="text/css"/>
+	 <script type="text/javascript" src="../lib/mixitup/main.js"></script>
+	 <script type="text/javascript" src="../lib/mixitup/jquery.mixitup.js"></script>
   
 	</head>
 
@@ -77,13 +81,12 @@
 			<section id="page-wrapper">
 			
 				<div class="header-title row bg-forum">
-					<h1 class="col-md-12 pad">Panier à idées</h1>
+					<h1 class="col-md-12 talk">Dois-je fumiger ma palette ?</h1>
 				</div>
 				
 				<div class="page-nav row">
 					<div class="nav col-md-10 row">
-						<p class="col-md-2"><a href="#le-panier" class="scroll">Le panier</a></p>
-						<p class="col-md-4"><a href="#proposer-une-idee" class="scroll">Proposer une idée</a></p>
+						<p class="col-md-2"><a href="#more" class="scroll">Réagir</a></p>
 					</div>
 					<div class="links col-md-2 row">
 						<a id="copy-url" href=""><img src="../img/link.svg"/></a>
@@ -92,69 +95,112 @@
 					<input type="text" id="copyTarget" value="Text to Copy">
 				</div>
 				
-				<div class="panier-a-idee page-content row">
+				<div class="page-content row">
 					
 					<div id="fil-ariane">
 						<ul>
 							<li><a href="../index.html" class="transition">Accueil</a></li>
 							<li><a href="../communaute.html" class="transition">Communauté</a></li>
-							<li><a href="panier-a-idees.html" class="transition">Panier à idées</a></li>
+							<li><a href="discussion-fumiger-palette.html" class="transition">Fumiger ma palette</a></li>
 						</ul>
 					</div>
 					
-					<h2 id="le-panier" class="title-page-content">Le panier</h2>
-					
-					<p class="text-justify pad">La panier à idées sert à la communauté Loot<span class="ampersand">&amp;</span>Craft de voter les différentes idées de tutoriels, inspirations, évènements, etc. Les idées présentes dans le panier ont été au préalable filtrées par notre équipe sous différents critères relativement souples. Vous pouvez donc très librement proposer votre propre idée ! Ainsi vous êtes maitres du contenu présent sur le site. Nous considérons qu'une idée peut être concrétisée lorsque le nombre d'avis positifs est deux fois supérieur au nombre d'avis négatifs. À vous de voter !</p>
-					
-					<div class="mosaic list">
-						<div class="ligne" class='col-sm-12'>
-							<div class="cross-icon cross-icon-green">
-								<div class="cross-icon-box">
-									<div class="cross-icon-inner"></div>
-								</div>
+					<div class="comments">
+						<div class="comment">
+							<div class="user" class='col-sm-12'>
+								<a href="tutoriels-page.html">
+									<div class="open-talk"><img src="../img/start-talk.svg" /></div>
+									<div class="content">
+										<p>Bowernald</p>
+										<p>Publié le 12/03/16</p>
+									</div>
+								</a>
 							</div>
-							<div class="content">
-								<p>Une ampoule comme objet déco</p>
-								<p><a href="#"><span class="likes">127</span></a><a href="#"><span class="dislikes">88</span></a></p>
-								<hr class="separator-green">
+							<div class="text bg-forum" class='col-sm-12'>
+								<p>Bonjour à tous, je souhaitais savoir si je devais fumiger ma palette lorsque je réalisais mes créations ?</p>
 							</div>
 						</div>
-						<div class="ligne" class='col-sm-12'>
-							<div class="cross-icon cross-icon-green">
-								<div class="cross-icon-box">
-									<div class="cross-icon-inner"></div>
-								</div>
+						<div class="comment">
+							<div class="user" class='col-sm-12'>
+								<a href="tutoriels-page.html">
+									<div class="open-talk"><img src="../img/start-talk.svg" /></div>
+									<div class="content">
+										<p>Urukmog</p>
+										<p>Publié le 13/03/16</p>
+									</div>
+								</a>
 							</div>
-							<div class="content">
-								<p>Tutoriel cuisine design</p>
-								<p><a href="#"><span class="likes">219</span></a><a href="#"><span class="dislikes">29</span></a></p>
-								<hr class="separator-green">
+							<div class="text bg-forum" class='col-sm-12'>
+								<p>Bonjour @Bowernald, normalement, si tu achètes une palette en France, tu n'as pas besoin de la fumiger puisque la loi impose la fumigation des palettes lorsqu'elles arrivent sur le territoire français.</p>
 							</div>
 						</div>
-						<div class="ligne" class='col-sm-12'>
-							<div class="cross-icon cross-icon-green">
-								<div class="cross-icon-box">
-									<div class="cross-icon-inner"></div>
-								</div>
+						<div class="comment">
+							<div class="user" class='col-sm-12'>
+								<a href="tutoriels-page.html">
+									<div class="open-talk"><img src="../img/start-talk.svg" /></div>
+									<div class="content">
+										<p>Aerthrogli</p>
+										<p>Publié le 15/03/16</p>
+									</div>
+								</a>
 							</div>
-							<div class="content">
-								<p>Inspiration style industriel</p>
-								<p><a href="#"><span class="likes">320</span></a><a href="#"><span class="dislikes">94</span></a></p>
-								<hr class="separator-green">
+							<div class="text bg-forum" class='col-sm-12'>
+								<p>Bonjour @Bowernald, pour compléter ce que @Urukmog t'indique, tu peux vérifier si ta palette est déjà fumigée si elle adopte la Norme NIMP15. Tu peux le vois si il y a un logo d'épis de blé ainsi que l'indication DE-HE.</p>
+							</div>
+						</div>
+						<div class="comment">
+							<div class="user" class='col-sm-12'>
+								<a href="tutoriels-page.html">
+									<div class="open-talk"><img src="../img/start-talk.svg" /></div>
+									<div class="content">
+										<p>Bowernald</p>
+										<p>Publié le 15/03/16</p>
+									</div>
+								</a>
+							</div>
+							<div class="text bg-forum" class='col-sm-12'>
+								<p>Merci beaucoup pour vos indications @Urukmog et @Aerthrogli, ma palette est déjà fumigée je n'ai pas besoin de le faire moi-même !! Merci pour cette petite leçon de culture générale !</p>
 							</div>
 						</div>
 					</div>
 					
-					<h2 id="proposer-une-idee" class="title-page-content">Proposer une idée</h2>
-					
-					<form class="col-md-12" role="form">
-						  <div class="form-group">
-						  	<textarea class="form-control" rows="7" id="comment" placeholder="Mon idée"></textarea>
-						  </div>
-						  <div class="form-group text-right">
-							  <button type="submit" class="btn btn-default">Envoyer</button>
-						  </div>	  
-					</form>
+					<div class="connect page">
+						<h3>Mais, qui êtes vous ?</h3>
+						<form class="form-inline" role="form">
+							<div class="form-group">
+								<input type="email" placeholder="Identifiant" class="form-control" id="email">
+							</div>
+						    <div class="form-group">
+								<input type="password" placeholder="Mot de passe" class="form-control" id="pwd">
+						    </div>
+						  <button type="submit" class="btn btn-default">Connexion</button>
+						</form>
+						<p class="subscribe col-md-6"><a class="transition" href="inscription.html">Je souhaite m'inscrire</a></p>
+						<p class="forget-pwd col-md-6"><a class="transition" href="mot-de-passe-oublie.html">J'ai oublié mon mot de passe</a></p>
+					</div>
+						
+					<div id="more">
+						<div class="more row">
+							<a class="transition" href="objets-search.html">
+								<div class="link col-md-6">
+									<div class="content bg-forum">
+										<div class="cross"><img src="../img/cross-black.svg" /></div>
+										<p>Je n’ai pas trouvé l’inspiration correspondant à mon objet</p>
+										<h3>Chercher un objet</h3>
+									</div>
+								</div>
+							</a>
+							<a class="transition" href="communaute-panier-a-idees.html">
+								<div class="link col-md-6">
+									<div class="content bg-forum">
+										<div class="cross"><img src="../img/cross-black.svg" /></div>
+										<p>Je n’ai trouvé aucune inspiration qui m’intéresse</p>
+										<h3>Proposer une inspiration</h3>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
 				</div>
 				
 			</section>
