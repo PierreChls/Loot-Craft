@@ -298,6 +298,13 @@ span.ampersand{
 	width: 13.5%;
 }
 
+#nav .nav-menu ul.navbar-nav li.active{
+	background-image: url('../img/separator/hr-black.svg');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 #nav .nav-menu ul.navbar-nav li a{
 	padding: 0;
 	font-weight: 600;
@@ -1437,6 +1444,24 @@ form.contact-us div.form-group input{
 	background-repeat: repeat-y;
 	background-size: contain;
 }
+
+@media (max-width: 830px){
+	#main-container #page-wrapper #objects-skroll-bg {
+		background-image:url('../img/alphabet/scroll-bg-mobile.png');
+	}
+	#main-container #page-wrapper .page-content .dico .letter{
+		margin: 4em 0em 6em 0;
+	}
+	#main-container #page-wrapper .page-content .dico .letter h4{
+		text-align: right;
+		padding-right: 0.2em;
+	}
+	#main-container #page-wrapper .page-content .dico .letter p{
+		text-align: right;
+		padding-right: 2em;
+	}
+}
+
 
 #main-container #page-wrapper .page-content #objects-search{
 	padding-bottom: 50vh;
