@@ -181,7 +181,7 @@ var symbols = {
             fromState: "Base State",
             toState: "",
             duration: 0,
-            autoPlay: true,
+            autoPlay: false,
             timeline: [
             ]
         }
