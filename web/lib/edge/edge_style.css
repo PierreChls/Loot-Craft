@@ -1,0 +1,19 @@
+.edgeLoad-EDGE-38547048 { visibility:hidden; }
+#Stage{
+	position: absolute;
+	z-index: 10000;
+}
+.flow-wrapper{
+	position: absolute;
+	width: 100% !important;
+	height: 100vh !important;
+	background: #FFF;
+	z-index: 10;
+}
+
+#nav .nav-menu ul li{
+	opacity: 0;
+}
+#nav .nav-menu ul li.navbar-brand-link{
+	opacity: 1;
+}

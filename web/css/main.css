@@ -115,10 +115,12 @@ a {
   font-weight: inherit;
   font-size: inherit;
   text-decoration: none;
+  outline: none;
 }
 
 a:hover, a:focus {
   text-decoration: none;
+  outline: none;
   color: #333;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -144,7 +146,6 @@ span.ampersand{
 
 #nav {
 	padding: 1em 6em;
-	/*padding: 15px 50px;*/
     position: fixed;
     top: 0;
     width: 100%;
@@ -169,6 +170,10 @@ span.ampersand{
 #nav.open{
 	height: auto;
 	position: relative;
+}
+
+#nav.open .nav-menu ul li.navbar-brand-link{
+	display: none !important;
 }
 
 #nav.open .nav-footer, #nav.open .nav-menu{
@@ -228,6 +233,7 @@ span.ampersand{
     letter-spacing: 1px;
     font-weight: 100;
     opacity: 0;
+    z-index: 12;
 }
 
 
@@ -236,7 +242,7 @@ span.ampersand{
     background: #FFF;
     height: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 9;
 }
 
  

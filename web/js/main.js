@@ -16,6 +16,7 @@ $(document).ready(function(){
 	  	redirectPage();
 	  });    
   });
+ 
   
   function redirectPage() {
   	location.href = document.referrer;
